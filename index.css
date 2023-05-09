@@ -55,3 +55,15 @@ body {
     gap: 2em;
   }
 }
+
+footer {
+  background-color: #202020;
+}
+
+.footer-session {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
