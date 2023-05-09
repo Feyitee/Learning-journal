@@ -17,7 +17,6 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0;
   padding: 0 2em;
 }
 .header-logo {
@@ -66,4 +65,25 @@ footer {
   justify-content: center;
   align-items: center;
   color: aliceblue;
+}
+img {
+  display: block;
+}
+
+main {
+  background-color: #fafafa;
+}
+.post-heropage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80rem;
+  margin: 0 5rem;
+  padding-top: 5rem;
+}
+.hero-img {
+  margin: 0 auto;
+}
+.post-header {
+  grid-column: 1/-1;
+  text-align: center;
 }
